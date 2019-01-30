@@ -24,5 +24,5 @@ function doWhileLoop(array){
 
   do {
     array.shift();
-  } while (incrementVariable < array.length);
+  } while (incrementVariable() < array.length);
 }
