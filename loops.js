@@ -28,6 +28,6 @@ function doWhileLoop(array){
       console.log('array.length = ' + array.length + ' and i = ' + i);
       array.shift;
       incrementVariable();
-    } while (incrementVariable() < array.length);
+    } while (incrementVariable() < array.length - 1);
     return array;
   }
