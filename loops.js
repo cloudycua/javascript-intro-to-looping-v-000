@@ -16,14 +16,14 @@ function whileLoop(number){
   return "done";
 }
 
-var i = 0;
-
-function incrementVariable(){
-  i++;
-}
 
 function doWhileLoop(array){
+  var i = 0;
+
+  function incrementVariable(){
+    i = 1 + i;
+  }
   do {
-    array.shift();
-  } while (incrementVariable() < array.length);
-}
+      array.shift();
+    } while (incrementVariable() < array.length);
+  }
